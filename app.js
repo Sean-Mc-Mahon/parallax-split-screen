@@ -1,15 +1,19 @@
-function splitScroll(){
-  const controller = new ScrollMagic.Controller();
+// function splitScroll(){
+//   const controller = new ScrollMagic.Controller();
 
-  new ScrollMagic.Scene({
-    duration: '200%',
-    triggerElement: '.about-title',
-    //sets where the trigger is activated from
-    triggerHook:0
-  })
-  .setPin('.about-title')
-  .addIndicators()
-  .addTo(controller)
-}
+//   new ScrollMagic.Scene({
+//     duration: '200%',
+//     triggerElement: '.about-title',
+//     //sets where the trigger is activated from
+//     triggerHook:0
+//   })
+//   .setPin('.about-title')
+//   .addIndicators()
+//   .addTo(controller)
+// }
 
-splitScroll();
+// $(window).resize(function(){
+//   if( $(this).width() >= 992 ) {
+//   splitScroll();
+// } });
+

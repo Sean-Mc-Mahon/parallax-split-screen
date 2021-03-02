@@ -23,17 +23,19 @@ header {
   display: flex;
 }
 .about-title {
-  width: 50%;
+  /* width: 50%; */
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 30px;
   margin: 0 !important; /* ! to prevent scrollmagic from applying a margin*/
+  position: sticky;
+  top: 0;
 }
-.about-pages {
+/* .about-pages {
   width: 50%;
-}
+} */
 .about-pages div {
   height: 100vh;
   display: flex;
